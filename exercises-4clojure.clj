@@ -33,7 +33,7 @@ Problem #40 Interpose a Sequence
 (fn [s x] (drop-last (mapcat vector x (repeat s))))
 
 Problem #43 Reverse Inverse
-Can't figure it out
+(fn [x n] (apply map list (partition n x)))
 
 Problem #44 Rotate Sequence 
 Can't figure it out
