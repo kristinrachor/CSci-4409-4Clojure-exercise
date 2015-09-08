@@ -1,15 +1,40 @@
 ;;; Put your solutions to the assigned 4Clojure exercises here and commit
 ;;; back up to your fork on Github.
 
-;;; What you enter is what whatever you'd put in the "Code which fills in the blank"
-;;; box in 4Clojure. You're welcome to include other things here (helper definitions,
-;;; scratch computations you found helpful, etc.), SO MAKE SURE YOU LABEL YOUR
-;;; "ANSWERS" clearly.
 
-;;; I've included a few examples below just to give you a sense of what I'm looking
-;;; for.
+Problem #10 Intro to Maps
+20
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Problem #16 Hello World
+(fn[name] (str "Hello, " name "!"))
+
+Problem #17 Sequences: Maps
+'(6 7 8)
+
+Problem #18 Sequences: Filter
+'(6 7)
+
+Problem #20 Penultimate Element
+(fn[x](nth x(- (count x) 2)))
+
+Problem #21 Nth Element
+(fn[x n] (last (take(+ n 1) x )))
+
+Problem #23 Reverse a String
+
+Problem #25
+
+Problem #37
+
+Problem #40
+
+Problem #43
+
+Problem #44
+
+Problem #46
+
+Problem #47
 
 ;;; Problem #162: Logical falsity and true
 
