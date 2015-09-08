@@ -32,35 +32,15 @@ Problem #37 Regular Expressions
 Problem #40 Interpose a Sequence
 (fn [s x] (drop-last (mapcat vector x (repeat s))))
 
-Problem #43
+Problem #43 Reverse Inverse
+Can't figure it out
 
-Problem #44
+Problem #44 Rotate Sequence 
+Can't figure it out
 
-Problem #46
+Problem #46 Flipping Out
 (fn [x] (fn [a b] (x b a)))
 
-Problem #47
+Problem #47 Contain Yourself
 4
-
-;;; Problem #162: Logical falsity and true
-
-; What I pasted in the box:
-
-1
-
-; because all the given expressions returned 1, for example:
-
-(= 1 (if [] 1 0))
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-;;; Problem #15: Double Down
-
-; What I pasted in the box:
-
-#(* 2 %)
-
-; which is an anonymous function that doubles its argument, for example:
-
-(= (#(* 2 %) 11) 22)
 
