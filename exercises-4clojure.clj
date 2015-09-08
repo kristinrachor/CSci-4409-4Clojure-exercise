@@ -20,21 +20,27 @@ Problem #20 Penultimate Element
 Problem #21 Nth Element
 (fn[x n] (last (take(+ n 1) x )))
 
-Problem #23 Reverse a String
+Problem #23 Reverse a Sequence
+(fn[x] (into '() x))
 
-Problem #25
+Problem #25 Find the Odd Numbers
+(fn[x] (filter odd? x))
 
-Problem #37
+Problem #37 Regular Expressions
+"ABC"
 
-Problem #40
+Problem #40 Interpose a Sequence
+(fn [s x] (drop-last (mapcat vector x (repeat s))))
 
 Problem #43
 
 Problem #44
 
 Problem #46
+(fn [x] (fn [a b] (x b a)))
 
 Problem #47
+4
 
 ;;; Problem #162: Logical falsity and true
 
